@@ -23,7 +23,7 @@ section{
 .container{
     border: 1px solid black;
     max-width: 30%;
-    min-height: 75vh;
+    min-height: 65vh;
     background: conic-gradient(from 180deg at 50% 50%, #80BF82 0deg, #D9F2DA 193.12deg, #80BF82 360deg);
     border-radius: 10px;
     padding: 0px;
@@ -46,7 +46,7 @@ section{
   }
   nav{
     background-color: #183219; 
-    min-height: 5vh;
+    height: 5vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
@@ -108,18 +108,27 @@ background-color: #80BF82;
 color: black;
 }
 @media screen and (max-width:700px) {
-    .container{
-        max-width: 90%;
-        margin-top: 20%;
-    }
+   
     h1{
     font-size: 45px;
 
     }
+    .container{
+      max-width: 100%;
+      height: 90vh;
+      margin-top: 0%;
+      border: 0px;
+      
+  }
   a.nav-bar{
-    padding: 0px 10px;
-  }
-  nav{
-    padding-bottom: 0px;
-  }
+      padding: 0px 10px;
+      
+      
+    }
+    nav{
+
+      padding-bottom: 0px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
    }
