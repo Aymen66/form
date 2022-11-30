@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta propperty="og: title" content="Use my new app !">
+  <meta propperty="og: type" content="App">
+  <meta propperty="og: image" content="vc.jpg">
+  <meta propperty="og: description" content=" Vocabulary Checker is an app that helps you expand your vocabulary by adding the new words that you learn on a daily basis">
+  <meta propperty="og: name" content="Vocabulary Checker">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Vocabulary Checker</title>
+</head>
+<body>
+      <div class="container">
+     <header>
+        <h1>Sign up !</h1>
+          <p> Create an account by filling the form below</p>
+      </header>
+     <main>
+        <form type="post">
+         <div>
+            <label for="user_firstname">First Name</label>
+            <input type="text" id="user_firstname" name="user_firstname" required>
+        </div>
+        <div>
+          <label for="user_lastname">Last Name</label>
+            <input type="text" id="user_lastname" name="user_lasttname" required>
+        </div>
+        <div>
+          <label for="user_email">Email Address </label>
+            <input type="email" id="user_email" name="user_email" required>
+        </div>
+        <div>
+          <label for="password">Password</label>
+            <input type="password" id="password" name="password" required min="5">
+        </div>
+        <div>
+          <label for=" birth_date">Date of Birth</label> 
+            <input type="date" id="birth_date" name="birth_date" required>
+        </div>
+        <div>
+          <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="079-45-678" required pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        </div>
+        <div>
+          <input type="checkbox" id="agree" name="agree">
+            <label for="agree"> By checking this box, you are agreeing to our terms of service.</label>
+        </div>
+          <button type="submit">Create Account</button>
+  </form>
+</main>
+      <footer>
+           <p>
+            Do you already have an account? <span> <a href="signin.html" class="button">Log in</a>            <h5>
+            </span>
+           </p>
+      </footer>
+  </div>
+
+  <script  src="index.js" charset="UTF-8"></script>
+
+  </body>
+</html>
