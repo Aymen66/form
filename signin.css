@@ -89,6 +89,14 @@ color: black;
     .container{
         max-width: 90%;
         height: 90vh;
+        margin-top: 10%;
+        
         
     }
+    a.nav-bar{
+        padding: 0px 10px;
+      }
+      nav{
+        padding-bottom: 0px;
+      }
    }
